@@ -1,7 +1,7 @@
 {
-    "name": "Queen Amdi 3.0.2v",
-    "description": "Queen Amdi is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/r3wmpwr/LOGO.jpg",
+    "name": "kingamda-x"
+    "description": "kingamda-x is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.ibb.co/QYVDSSY/Photo-1859807427.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Queen Amdi"],
     "repository": "",
     "website":   "https://dashboard.heroku.com/apps/",
@@ -62,7 +62,7 @@
         "CAP": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₁"
+            "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ kingamda-X"
         },
         "IMGBB": {
             "description": "Paste your imgbb API to change ALIVE,Welcome,Bye pictures by a command. (Visit https://imgbb.com/ and signup there. And get an API key from https://api.imgbb.com/)",
@@ -102,7 +102,7 @@
         "BYE_LOGO": {
             "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://i.ibb.co/pbjB2pS/93f527f9f2fb.jpg"
+            "value": "https://i.ibb.co/QYVDSSY/Photo-1859807427.jpg"
         },
         "UNMUTE_MESSAGE": {
             "description": "Message received when unmuteing a group.",
