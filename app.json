@@ -8,7 +8,7 @@
     "success_url": "https://dashboard.heroku.com/apps/",
     "stack": "container",
     "env": {
-        "AMDI_SESSION": {
+        "KINGAMDA-X_SESSION": {
             "description": "Paste your QR session that you got from https://replit.com/@BlackAmda/Queen-Amdi-QR-Code.",
             "required": true
         },
