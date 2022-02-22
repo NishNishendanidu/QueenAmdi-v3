@@ -231,7 +231,7 @@ if (config.LANG == 'EN' || config.LANG == 'ES') {
         console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Amdi')}
     ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-    ${chalk.blue.italic('ℹ️ Conecting to WhatsApp... Please wait...')}`);
+    ${chalk.blue.italic('ℹ️ kingamda-X  Conecting to WhatsApp... Please wait...')}`);
         });
 }
 else if (config.LANG == 'SI') {
@@ -239,7 +239,7 @@ else if (config.LANG == 'SI') {
         console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Amdi')}
     ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-    ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙමින් පවතී... කරුණාකර රැඳී සිටින්න.')}`);
+    ${chalk.blue.italic('ℹ️ kingamda-X WhatsApp වෙත සම්බන්ධ වෙමින් පවතී... කරුණාකර රැඳී සිටින්න.')}`);
         });
 }
 
@@ -280,14 +280,14 @@ if (config.LANG == 'EN' || config.LANG == 'ES') {
         });
 
         console.log(
-            chalk.green.bold('🛡️ Queen Amdi Sheild Activated!')
+            chalk.green.bold('🛡️ kingamda-X  Sheild Activated!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
 if (config.WORKTYPE == 'public') {
     if (QueenAmdiCon.user.jid === '@s.whatsapp.net') {
 
-        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
+        await QueenAmdiCon.sendMessage(kingamda-X Con.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
 
         await new Promise(r => setTimeout(r, 1800));
 
@@ -302,7 +302,7 @@ if (config.WORKTYPE == 'public') {
         })
     }
     else {
-        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*kingamda-Xstarted in Public Mode ⚡
+        await kingamda-XCon.sendMessage(QueenAmdiCon.user.jid, '*kingamda-Xstarted in Public Mode ⚡
                                        *\n\n_Please do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.panel* _to get your full command list._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE=private``` _command._\n\n*You can check our website for new features : https://www.amdaniwasa.com/*\n\n*Comment here to request new features:*\nhttps://amdaniwasa.com/index-en.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Thank you for using Queen Amdi 💌*', MessageType.text);
     }
 }
@@ -441,7 +441,7 @@ else if (config.LANG == 'SI') {
             var gb = await getMessage(msg.key.remoteJid, 'goodbye')
             
             if (gb !== false) {
-                await QueenAmdiCon.sendMessage(msg.key.remoteJid, Buffer.from (blogo.data), MessageType.image, {mimetype: Mimetype.png, caption: gb.message});
+                await kingamda-X Con.sendMessage(msg.key.remoteJid, Buffer.from (blogo.data), MessageType.image, {mimetype: Mimetype.png, caption: gb.message});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
@@ -461,11 +461,11 @@ else if (config.LANG == 'SI') {
             var abc = config.BLOCKCHAT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.AMDANIWASA == '393475528094-1415817281') {     
+        if (config.kingamda-X == '88282882888) {     
             var sup = config.AMDANIWASA.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT1 == '94757405652-1631633729') {     
+        if (config.SUPPORT1 == '00000000000) {     
             var tsup = config.SUPPORT1.split(',');                            
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
@@ -473,11 +473,11 @@ else if (config.LANG == 'SI') {
             var nsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.NAGRP == '972542559113-1376904403') {     
-            var msup = config.NAGRP.split(',');                            
+        if (config.NAGRP == ') {     
+            var msup = config.NAGRP.split(',00000000000');                            
             if(msg.key.remoteJid.includes('-') ? msup.includes(msg.key.remoteJid.split('@')[0]) : msup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.RRBSEW == '94785435462-1625490851') {     
+        if (config.RRBSEW == '00000000000) {     
             var asup = config.RRBSEW.split(',');                            
             if(msg.key.remoteJid.includes('-') ? asup.includes(msg.key.remoteJid.split('@')[0]) : asup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
@@ -609,11 +609,11 @@ else if (config.LANG == 'SI') {
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'SI') {
-                                await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*-- දෝෂ වාර්තාව [QUEEN AMDI] --*' + 
+                                await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*-- දෝෂ වාර්තාව [kingamda-X] --*' + 
                                     '\n\n*Queen Amdi Bot දෝෂයක් සිදුවී ඇත!*'+
                                     '\n\n_මෙම දෝෂ logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය_' +
-                                    '\n_Support Group Entrance:_ https://chat.whatsapp.com/C2ie0zy0gCqABMgYGiX284' +
+                                    '\n_Support Group Entrance:_ ' +
                                     '\n\n_මෙම පණිවිඩය ඔබගේ අංකයට ගොස් තිබිය යුතුය (සුරකින ලද පණිවිඩ)._\n\n' +
                                     '*සිදු වූ දෝෂය:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
